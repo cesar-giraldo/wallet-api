@@ -1,5 +1,5 @@
 
-# wallet
+# wallet - API
 
 > API en Node JS, para cosultar y administrar una billetera virtual
 
@@ -20,3 +20,8 @@ node_modules/.bin/sequelize db:seed:all
 DEBUG=wallet-api:* npm start
 
 ```
+
+La API consta de dos Web Services:
+GET   http://localhost:3000/wallet
+POST  http://localhost:3000/wallet/update
+
