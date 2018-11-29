@@ -3,7 +3,9 @@
 
 > API en Node JS, para cosultar y administrar una billetera virtual
 
-# Build Setup 
+## Build Setup 
+
+``` bash
 npm install
 
 
@@ -16,3 +18,5 @@ node_modules/.bin/sequelize db:seed:all
 
 # Ejecutar
 DEBUG=wallet-api:* npm start
+
+```
